@@ -9,5 +9,5 @@ Based on:
 
 Schematic and layout in [Diptrace v4](https://wwww.diptrace.com).
 
-![schematic](diptrace/v0.1/v0.1_schematic2.png)
+![schematic](diptrace/v0.1/v0.1_schematic.png)
 ![front](diptrace/v0.1/v0.1_front.png)
