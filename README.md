@@ -8,3 +8,6 @@ Based on:
 * "Poor Man’s 1-GHz probe", Elektuur Magazine, April 2004, article by David Jewsbury, Offline
 
 Schematic and layout in [Diptrace v4](https://wwww.diptrace.com).
+
+![schematic](diptrace/v0.1/v0.1_schematic.png)
+![front](diptrace/v0.1/v0.1_front.png)
