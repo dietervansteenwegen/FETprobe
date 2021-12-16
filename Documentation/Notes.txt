@@ -1,0 +1,15 @@
+Interestingly, when observing the drain-current of the Fet, it became clear that the article’s proposed 5.3 V bias voltage cause it to operate well outside its power specifications. Thus, a safe range of 0-2.4 V has been determined and used, where the lifespan of the Fet is not being threatened.
+
+The input capacitor Cin really needs to be as small as shown in Fig. 2.3, as a test with 5 pF had shown that the input reflection coefficient S11 had risen above the target of -10 dB). The 2nd gate (top one in schematic) stabilizes the Fet by being subjected to voltage-feedback.
+
+The 10 MΩ bias-resistor Rbias is to block RF from reaching outwards while applying the DC working-point. This is required as the Fet needs to work in the positive input voltage range, and without the DC-offset it would handle negative voltage transitions significantly worse
+
+The Fetprobe’s bias voltage was tuned to 2.4 V, where the current is on the edge of its datasheet limitations but still within specs. That altered its working point and makes it act in a more linear area of its input-output function.
+
+On the output-side, R2 towards the output raises the resistance to compensate the low-impedance of the Fet’s output.
+
+n the output path there has to be a 150 nF cap (Cout), for blocking off the DC working point and a 33 Ω resistor (R2) to ground to improve matching.
+
+In the output path of the hardware-version a filter has been added (Fig. 2.4) to get rid of the main resonance around 850 MHz, with the values of C1 = 1.8 pF, C2 = 1 pF and L = 22 nH (all RF-rated)
+
+
