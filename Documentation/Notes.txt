@@ -11,5 +11,3 @@ On the output-side, R2 towards the output raises the resistance to compensate th
 n the output path there has to be a 150 nF cap (Cout), for blocking off the DC working point and a 33 Ω resistor (R2) to ground to improve matching.
 
 In the output path of the hardware-version a filter has been added (Fig. 2.4) to get rid of the main resonance around 850 MHz, with the values of C1 = 1.8 pF, C2 = 1 pF and L = 22 nH (all RF-rated)
-
-
