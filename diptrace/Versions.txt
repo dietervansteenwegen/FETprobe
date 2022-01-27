@@ -1,0 +1,9 @@
+********************
+*   V0.1 -> v0.2   *
+********************
+
+- Removed input resistor to GND
+- Multiple resistor values
+- 7809 (U1) is reverse mounted (in/out)
+- SMA changed to edge mount
+- Zener replaced with 24V version
