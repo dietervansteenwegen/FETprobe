@@ -1,0 +1,11 @@
+* C:\Input.asc
+V2 N002 0 AC 2
+C2 N002 Vout 0.5p
+R3 Vout 0 1G
+V3 N001 0 9 AC 0
+R5 N001 Vout {r}
+.param r=table(n, 1,10k,2,100k,3,1MEG,4,10MEG)
+.step param n 1 4 1
+.ac dec 200 10k 1G
+.backanno
+.end
